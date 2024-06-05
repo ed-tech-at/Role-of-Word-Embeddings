@@ -11,3 +11,16 @@ There is currently a bug in the Gensim module. To fix it, an older version of sc
 pip install scipy==1.12
 pip install gensim
 ```
+
+## Run Examples Locally
+
+`python3`
+
+```
+import gensim.downloader as api
+dataset = api.load('glove-wiki-gigaword-300')
+
+dataset.most_similar_cosmul(positive=["warm", "winter"], negative=["summer"])
+
+dataset.most_similar_cosmul(positive=["boat", "road"], negative=["sea"])
+```
