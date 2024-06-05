@@ -1,5 +1,7 @@
 # The Role of Word Embeddings
 
+Publication at https://doi.org/10.5281/zenodo.11348467
+
 ## Local Installation
 To experiment with word embeddings locally, the dataset Gensim could be used with Python 3. 
 
